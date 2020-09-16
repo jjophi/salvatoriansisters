@@ -1,0 +1,25 @@
+:root{
+    --pageWidth: 1360px;
+}
+html, body{
+    height: 100%;
+}
+.page{
+    height: 100%;
+}
+.container{
+    width: 100%;
+    max-width: var(--pageWidth);
+    margin: 0 auto;
+}
+.page-header{
+    background: rgb(255, 201, 201) url(../images/nature1.jpg) no-repeat center;
+    background-size: cover;
+    height: 90%;
+}
+
+
+.page-footer{
+    background-color: #1A1A1A;
+    color: #fff;
+}
