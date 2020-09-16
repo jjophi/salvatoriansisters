@@ -1,8 +1,14 @@
 :root{
-    --pageWidth: 1360px;
+    --pageWidth: 1260px;
 }
 html, body{
     height: 100%;
+}
+.p-0{padding: 0;}
+.p-1{padding: 0.25rem;} /*4px*/
+.p-4{padding: 1rem;} /*16px*/
+.flex{
+    display: flex;
 }
 .page{
     height: 100%;
@@ -18,8 +24,36 @@ html, body{
     height: 90%;
 }
 
-
+.main-navigation{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px 0;
+}
 .page-footer{
-    background-color: #1A1A1A;
+    background-color: #20123a;
     color: #fff;
+}
+
+.upcoming-events{
+    background-color: #fff4de;
+}
+.event-image img{ 
+    display: inline-block;
+    width: 180px;
+    height: auto;
+}
+
+.card-news{
+    padding: 2rem 0;
+}
+.card-news .card-image{
+    width: 100%;
+    height: 180px;
+    background-color: salmon;
+}
+.card-news + .card-news{
+    margin: 0 0 0 3rem;
 }
