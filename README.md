@@ -1,2 +1,2 @@
 # Salvatorian Sisters
-Website for Salvatorian Sisters, India
+Website for Salvatorian, India

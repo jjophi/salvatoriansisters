@@ -1,78 +1,3 @@
-@font-face {
-    font-family: Muli-Light; /*300*/
-    src: url('../fonts/mulish-v1-latin-300.woff2')  format('woff2');
-    font-display: fallback;
-}
-@font-face {
-    font-family: Muli; /*400*/
-    src: url('../fonts/mulish-v1-latin-regular.woff2')  format('woff2');
-    font-display: fallback;
-}
-@font-face {
-    font-family: Muli-Italic;/*400*/
-    src: url('../fonts/mulish-v1-latin-italic.woff2')  format('woff2');
-    font-display: fallback;
-}
-@font-face {
-    font-family: Muli-SemiBold; /*600*/
-    src: url('../fonts/mulish-v1-latin-600.woff2')  format('woff2');
-    font-display: fallback;
-}
-@font-face {
-    font-family: Muli-Bold; /*700*/
-    src: url('../fonts/mulish-v1-latin-700.woff2')  format('woff2');
-    font-display: fallback;
-}
-@font-face {
-    font-family: Muli-BoldItalic; /*700*/
-    src: url('../fonts/mulish-v1-latin-700italic.woff2')  format('woff2');
-    font-display: fallback;
-}
-@font-face {
-    font-family: Muli-ExtraBold; /*800*/
-    src: url('../fonts/mulish-v1-latin-800.woff2')  format('woff2');
-    font-display: fallback;
-}
-@font-face {
-    font-family: Muli-Black; /*900*/
-    src: url('../fonts/mulish-v1-latin-900.woff2')  format('woff2');
-    font-display: fallback;
-}
-@font-face {
-    font-family: Lato; /*400*/
-    src: url('../fonts/Lato-Regular.woff2')  format('woff2');
-    font-display: fallback;
-}
-@font-face {
-    font-family: Lato-Bold; /*700*/
-    src: url('../fonts/Lato-Bold.woff2')  format('woff2');
-    font-display: fallback;
-}
-@font-face {
-    font-family: Lato-BoldItalic;
-    src: url('../fonts/Lato-BoldItalic.woff2')  format('woff2');
-    font-display: fallback;
-}
-@font-face {
-    font-family: Lato-Semibold;
-    src: url('../fonts/Lato-SemiBold.woff2')  format('woff2');
-    font-display: fallback;
-}
-@font-face {
-    font-family: Lato-Black; /*900*/
-    src: url('../fonts/Lato-Black.woff2')  format('woff2');
-    font-display: fallback;
-}
-@font-face {
-    font-family: Lato-Italic;
-    src: url('../fonts/Lato-Italic.woff2')  format('woff2');
-    font-display: fallback;
-}
-@font-face {
-    font-family: Lato-Light; /*300*/
-    src: url('../fonts/Lato-Light.woff2')  format('woff2');
-    font-display: fallback;
-}
 :root{
     --grey-50 : #E3E3E3;
     --grey-100 : #E5E5E5;
@@ -103,26 +28,12 @@
 
     --yellow-300 : #ffc300;
     --yellow-400 : #ffcd26;
+
+    
 }
-
-
-/*fonts*/
-.muli300{font-family: 'Muli-Light', 'Muli', Arial, Helvetica, sans-serif !important;}
-.muli400{font-family: 'Muli', Arial, Helvetica, sans-serif !important;}
-.muli400i{font-family: 'Muli-Italic', Arial, Helvetica, sans-serif !important;}
-.muli600{font-family: 'Muli-SemiBold', 'Muli', Arial, Helvetica, sans-serif !important;}
-.muli700{font-family: 'Muli-Bold', 'Muli', Arial, Helvetica, sans-serif !important;}
-.muli700i{font-family: 'Muli-BoldItalic', 'Muli', Arial, Helvetica, sans-serif !important;}
-.muli800{font-family: 'Muli-ExtraBold', 'Muli', Arial, Helvetica, sans-serif !important;}
-.muli900{font-family: 'Muli-Black', 'Muli', Arial, Helvetica, sans-serif !important;}
-
-.lato300{font-family: 'Lato-Light', 'Lato', Arial, Helvetica, sans-serif !important;}
-.lato400{font-family: 'Lato', Arial, Helvetica, sans-serif !important;}
-.lato400i{font-family: 'Lato-Italic', 'Lato', Arial, Helvetica, sans-serif !important;}
-.lato600{font-family: 'Lato-Semibold', 'Lato', Arial, Helvetica, sans-serif !important;}
-.lato700{font-family: 'Lato-Bold', 'Lato', Arial, Helvetica, sans-serif !important;}
-.lato700i{font-family: 'Lato-BoldItalic', 'Lato', Arial, Helvetica, sans-serif !important;}
-.lato900{font-family: 'Lato-Black', 'Lato', Arial, Helvetica, sans-serif !important;}
+/*font-family*/
+.text-font{font-family: 'Roboto', sans-serif;}
+.title-font{font-family: 'Playfair Display', serif;}
 
 /*font-size*/
 .text-nano{font-size: 0.625rem; /*10px*/}
@@ -136,6 +47,25 @@
 .text-4xl{font-size: 2.25rem; /*36px*/}
 .text-5xl{font-size: 3rem; /*48px*/}
 .text-6xl{font-size: 4rem; /*64px*/}
+
+/*font-style*/
+.italic{font-style: italic;}
+.not-italic{font-style: normal;}
+
+/*font-smoothing*/
+.antialiased{-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+.subpixel-antialiased{-webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto;}
+
+/*font-weight*/
+.font-hairline{font-weight: 100;}
+.font-thin{font-weight: 200;}
+.font-light{font-weight: 300;}
+.font-normal{font-weight: 400;}
+.font-medium{font-weight: 500;}
+.font-semibold{font-weight: 600;}
+.font-bold{font-weight: 700;}
+.font-extrabold{font-weight: 800;}
+.font-black{font-weight: 900;}
 
 /*color*/
 .text-current{color: currentColor;}
@@ -154,14 +84,6 @@
 .bg-transparent{background-color: transparent;}
 .bg-white{background-color: #fff;}
 .bg-grey-150{background-color: var(--grey-150);}
-
-/*font-style*/
-.italic{font-style: italic;}
-.not-italic{font-style: normal;}
-
-/*font-smoothing*/
-.antialiased{-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
-.subpixel-antialiased{-webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto;}
 
 /*padding*/
 .p-0{padding: 0;}
